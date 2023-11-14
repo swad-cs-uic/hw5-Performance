@@ -2,8 +2,8 @@ config:
   target: 'http://localhost:8080'
   phases:
     - duration: 10
-      arrivalRate: 500
-      name: Sustained 500 users for 10 seconds
+      arrivalRate: 1000
+      name: Sustained 1000 users for 10 seconds
 scenarios:
   - flow:
       - get:
